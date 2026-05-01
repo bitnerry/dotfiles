@@ -24,7 +24,10 @@ echo "Applying: $wallpaper ($((index + 1))/${#wallpapers[@]})"
 
 # Run both simultaneously
 awww img "$wallpaper" --transition-type fade --transition-duration 1.7 &
-wal -i "$wallpaper" -n -q &
+wal -i "$wallpaper" -n -q
+
+mkdir -p "$HOME/.config/waybar"
+cp "$HOME/.cache/wal/colors-waybar.css" "$HOME/.config/waybar/colors.css"
 
 # Wait for both to finish
 wait

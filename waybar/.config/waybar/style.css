@@ -1,0 +1,102 @@
+@import "colors.css";
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 12px;
+    min-height: 0;
+    border: none;
+    border-radius: 0;
+}
+
+#waybar {
+    background-color: @background;
+    color: @foreground;
+}
+
+/* LEFT */
+.modules-left {
+    margin-left: 8px;
+}
+
+#workspaces button {
+    all: initial;
+    padding: 0 6px;
+    margin: 0 1.5px;
+    min-width: 9px;
+    color: @foreground;
+}
+
+#workspaces button.empty {
+    opacity: 0.5;
+}
+
+#workspaces button.active {
+    color: @color5;
+}
+
+#workspaces button:hover {
+    color: @color3;
+}
+
+#window {
+    color: @foreground;
+    margin: 0 7.5px;
+}
+
+/* CENTER */
+#clock {
+    margin-left: 8.75px;
+    color: @foreground;
+}
+
+/* RIGHT */
+.modules-right {
+    margin-right: 8px;
+}
+
+#network,
+#pulseaudio,
+#cpu,
+#temperature,
+#memory,
+#battery,
+#tray {
+    min-width: 12px;
+    margin: 0 7.5px;
+}
+
+#network {
+    margin-right: 13px;
+}
+
+#tray {
+    margin-right: 16px;
+}
+
+#custom-expand-icon {
+    margin-right: 18px;
+}
+
+.tray-group-item {
+    margin: 0 2px;
+}
+
+#temperature.critical {
+    color: #E42022;
+}
+
+#battery.warning {
+    color: @color6;
+}
+
+#battery.critical {
+    color: #E42022;
+}
+
+#battery.charging {
+    color: #819583;
+}
+
+tooltip {
+    padding: 2px;
+}
