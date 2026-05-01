@@ -19,6 +19,7 @@ Personal Hyprland rice with:
 - Wofi (launcher)
 - Pywal (dynamic colors)
 - awww (wallpaper daemon)
+- qView (Image Viewer)
 
 ---
 
