@@ -4,8 +4,6 @@
 
 **Arch Linux + Hyprland Setup**
 
-<br><br>
-
 </div>
 
 ---
