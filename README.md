@@ -4,17 +4,7 @@
 
 **Arch Linux + Hyprland Setup**
 
-<img src="https://img.shields.io/badge/Arch-Linux-blue?style=for-the-badge&logo=archlinux">
-<img src="https://img.shields.io/badge/Hyprland-Wayland-purple?style=for-the-badge">
-<img src="https://img.shields.io/github/stars/bitnerry/dotfiles?style=for-the-badge">
-
 <br><br>
-
-<a href="#installation"><kbd> <br> Installation <br> </kbd></a>&ensp;
-<a href="#setup"><kbd> <br> Setup <br> </kbd></a>&ensp;
-<a href="#structure"><kbd> <br> Structure <br> </kbd></a>&ensp;
-<a href="#features"><kbd> <br> Features <br> </kbd></a>&ensp;
-<a href="#notes"><kbd> <br> Notes <br> </kbd></a>
 
 </div>
 
