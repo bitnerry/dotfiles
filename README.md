@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧊 Dotfiles
+# 🧊 Dotfiles [ Which is still under construction... ]
 
 **Arch Linux + Hyprland Setup**
 
